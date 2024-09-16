@@ -2,30 +2,30 @@ import os
 from pyrogram.types import KeyboardButton, InlineKeyboardMarkup,InlineKeyboardButton,WebAppInfo,ReplyKeyboardMarkup
 
 #get from https://my.telegram.org/auth
-API_ID:int =(os.environ.get("API_ID",21714374))
-API_HASH:str = os.environ.get("API_HASH", "700092e37d7da9a7b781994b7503a488")
-BOT_TOKEN:str = os.environ.get("BOT_TOKEN", "6909761308:AAFpefO5KpfOHfKKjUQeZX7bjoEMPWg4jsE")
+API_ID:int =(os.environ.get("API_ID",27498647))
+API_HASH:str = os.environ.get("API_HASH", "f7764b70861584bca951040781111bfb")
+BOT_TOKEN:str = os.environ.get("BOT_TOKEN", "6770406589:AAFzxvc7IwyoPGAynm4oJ5QCJZg1_TAktOA")
 
 
 REFER_BONUS=int(1)
 NEW_USER_BONUS=int(1)
 
 #username without @
-UPDATE_CHNL:str = os.environ.get("UPDATE_CHNL", "jn_bots")
-SUPPORT_GRP:str = os.environ.get("SUPPORT_GRP", "jn_smm")
-BOT_USERNAME:str = os.environ.get("BOT_USERNAME", "JN_SMM_BOT")
+UPDATE_CHNL:str = os.environ.get("UPDATE_CHNL", "Crypto_Loot_AK")
+SUPPORT_GRP:str = os.environ.get("SUPPORT_GRP", "Looters_Money_Trick")
+BOT_USERNAME:str = os.environ.get("BOT_USERNAME", "Earn_Money_UPI_Bot")
 
 #get it from @username_to_id_bot this bot 
 
-log_channel = int(os.environ.get("LOG_CHANNEL", "-1001918482012"))
-OWNER_ID=int(os.environ.get("OWNER_ID",5597521952))
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1001933029304"))
+OWNER_ID=int(os.environ.get("OWNER_ID",1807927334))
 
 
 # search on youtube "how to create mongodburl""
 
 MONGO_DB_URI:str = os.environ.get(
     "MONGO_DB_URI",
-    "mongodb+srv://rajpriti712:NHAvrha6XNd043uI@cluster0.a9pzur5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    "mongodb+srv://Storm72:khan7860@cluster0.udehz9j.mongodb.net/?retryWrites=true&w=majority")
 	
 
 
@@ -44,7 +44,7 @@ main_button = ReplyKeyboardMarkup(
         [
             [KeyboardButton("🪪 ᴍʏ ᴘʀᴏꜰɪʟᴇ"), KeyboardButton("🤑 ꜰʀᴇᴇ ᴍᴏɴᴇʏ 🤑")],
             [KeyboardButton("⚡️ ᴡɪᴛʜᴅʀᴀᴡᴀʟ ⚡️")], 
-            [KeyboardButton("ᴄʀᴇᴀᴛᴏʀ 😉", web_app=WebAppInfo(url="https://jnbots.netlify.app"))]
+            [KeyboardButton("ᴄʀᴇᴀᴛᴏʀ 😉", web_app=WebAppInfo(url="https://t.me/Ak74400"))]
         ],
         resize_keyboard=True
     )
